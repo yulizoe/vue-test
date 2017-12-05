@@ -1,0 +1,413 @@
+@charset "UTF-8";
+html {
+  color: #000;
+  background: #fff;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
+}
+
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent
+}
+
+body, html {
+  font-family: sans-serif
+}
+
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+  margin: 0;
+  padding: 0
+}
+
+input, select, textarea {
+  font-size: 100%
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+fieldset, img {
+  border: 0
+}
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal
+}
+
+del {
+  text-decoration: line-through
+}
+
+address, caption, cite, code, dfn, em, th, var {
+  font-style: normal;
+  font-weight: 500
+}
+
+ol, ul {
+  list-style: none
+}
+
+caption, th {
+  text-align: left
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 500
+}
+
+q:after, q:before {
+  content: ''
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sup {
+  top: -.5em
+}
+
+sub {
+  bottom: -.25em
+}
+
+a:active, a:hover {
+  text-decoration: none
+}
+
+a, ins {
+  text-decoration: none
+}
+
+body, input, select {
+  font: .4rem/1.5 "Microsoft Yahei", SimHei, SimSun
+}
+
+html {
+  background: #f2f2f2
+}
+
+body, html {
+  min-height: 100%
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #333
+}
+
+a {
+  color: #19a4bf
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both
+}
+
+.clearfix {
+  zoom: 1
+}
+
+.wrapper {
+  font-size: .42667rem;
+  overflow: hidden
+}
+
+.top-bar a, .dj-item-hd {
+  background: #fff;
+  border-top: 1px solid #d3d3d3;
+}
+
+.top-bar {
+  background: #da4336;
+  text-align: right
+}
+
+.top-bar a {
+  display: inline-block;
+  vertical-align: top;
+  width: .64rem;
+  height: .64rem
+}
+
+.top-bar-btn-refresh {
+  background: url(../images/icon-refresh.png) no-repeat center;
+  background-size: 60% 60%
+}
+
+.loading {
+  padding: .53333rem;
+  text-align: center
+}
+
+.loading i {
+  display: inline-block;
+  background: url(../images/loading.gif) no-repeat left center;
+  background-size: auto 100%;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  color: #929292;
+  font-size: .34667rem;
+  text-indent: 2em;
+  vertical-align: sub
+}
+
+.loading span {
+  padding-left: .5em;
+  color: #888
+}
+
+.loading.loading-more i {
+  background-image: url(../images/loading-more.gif)
+}
+
+.dj-item {
+  max-height: 2.66667rem
+}
+
+.dj-item:first-child {
+  margin-top: 0
+}
+
+.dj-item:last-child {
+  border-bottom: 1px solid #d3d3d3
+}
+
+.dj-item-hd {
+  padding: .2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative
+}
+
+.dj-item-pic {
+  margin-right: .2rem
+}
+
+.dj-item-pic img {
+  display: block;
+  width: 2.66667rem;
+  height: 2.13333rem
+}
+
+.dj-item-news-info {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1
+}
+
+.dj-item-tit {
+  font-size: .37333rem;
+  height: 0.6rem;
+  overflow: hidden
+}
+
+.dj-item-comment, .dj-item-time {
+  color: #929292;
+  font-size: .32rem
+}
+
+.dj-item-time {
+  float: left
+}
+
+.dj-item-comment {
+  float: right
+}
+
+.top-bar-left {
+  text-align: left
+}
+
+.top-bar-btn-back {
+  background: url(../images/icon-return.png) no-repeat center;
+  background-size: 60% 60%
+}
+
+.detail .head {
+  border-bottom: 1px solid #404040
+}
+
+.title {
+  font-weight: 700;
+  font-size: .61333rem;
+  color: #404040;
+  text-align: center;
+  padding: .4rem .26667rem;
+  max-height: 1.6rem;
+  overflow: hidden
+}
+
+.detail .info {
+  text-align: right;
+  color: #929292;
+  padding-right: .26667rem
+}
+
+.detail .content {
+  word-break: break-all;
+  color: #404040;
+  padding: 0 .26667rem .8rem .26667rem
+}
+
+.detail .content p {
+  text-align: justify;
+  text-indent: .66667rem
+}
+
+.detail .photo {
+  text-align: center;
+  padding: .26667rem 0
+}
+
+.detail .photo img {
+  width: 5.33333rem;
+  height: 4rem
+}
+
+.detail .comment-btn-box {
+  position: fixed;
+  bottom: 0;
+  height: 1.06667rem;
+  width: 100%;
+  background: #fff
+}
+
+.detail .add-comment, .detail .comment-num {
+  position: absolute;
+  top: .21333rem
+}
+
+.detail .comment-num {
+  left: .4rem
+}
+
+.detail .add-comment {
+  right: .4rem
+}
+
+.comment-list {
+  padding-bottom: 1.6rem
+}
+
+.comment-item {
+  background: #fff;
+  padding: .26667rem .26667rem;
+  border-top: 1px solid #d3d3d3
+}
+
+.comment-item:last-child {
+  border-bottom: 1px solid #d3d3d3
+}
+
+.comment-item p {
+  color: #929292;
+  font-size: .42667rem
+}
+
+.comment-item .show-all {
+  float: right;
+  padding: 0 .21333rem
+}
+
+.comment-hd {
+  color: #929292;
+  font-size: .37333rem;
+  margin-bottom: .13333rem
+}
+
+.comment-user {
+  float: left;
+  color: #19a4bf
+}
+
+.comment-time {
+  float: right
+}
+
+.comment-input {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: .42667rem;
+  width: 99%;
+  border: 2px solid #000
+}
+
+.comment-input-box {
+  position: relative;
+  background: #fff
+}
+
+.expandingArea {
+  position: relative;
+  margin-right: 1.6rem;
+  min-height: 1.06667rem;
+  max-height: 2.66667rem;
+  border: 1px solid #545454
+}
+
+.expandingArea pre {
+  display: block;
+  visibility: hidden;
+  width: 100%;
+  white-space: pre-wrap
+}
+
+.expandingArea .num {
+  position: absolute;
+  right: .13333rem;
+  font-size: .26667rem;
+  color: #929292
+}
+
+.comment-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: .26667rem .66667rem .26667rem .13333rem;
+  box-sizing: border-box;
+  outline: 0;
+  border: none;
+  resize: none
+}
+
+.btn-send-box {
+  width: 1.6rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  background: #19a4bf
+}
+
+.btn-send-box .btn-send {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: .93333rem;
+  height: .53333rem
+}

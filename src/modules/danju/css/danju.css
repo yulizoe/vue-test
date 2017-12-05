@@ -1,0 +1,102 @@
+.dj-item-hd {
+  position: relative;
+  height: 1rem \9;
+}
+.dj-item-danju-status {
+  position: absolute;
+  right: .26667rem;
+  font-size: .37333rem;
+}
+
+.m-load {
+  text-align: center;
+  padding: 8px;
+}
+.index-bar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: dpr(88px);
+  line-height: dpr(88px);
+  text-align: center;
+  background: #0060b0;
+  color: #fff;
+}
+.index-bar-left-btn {
+  position: absolute;
+  left: 0;
+}
+.index-bar-right-btn {
+  position: absolute;
+  right: 0;
+}
+.choose-bar {
+  width: 100%;
+  text-align: center;
+}
+.left-tab {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  color: #0060b0;
+}
+.right-tab {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  color: #0060b0;
+}
+.pop-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.conform-pop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 283px;
+  max-width: 400px;
+  min-height: 100px;
+  background: #fff;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  text-align: center;
+}
+.ui-btn-wrap {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+}
+.ui-btn {
+  display: inline-block;
+  background: #76c9ec;
+  color: #fff;
+  padding: 0 10px;
+}
+.result-wrapper {
+  text-align: center;
+}
+.ui-texta {
+  width: 282px;
+  height: 124px;
+}
+.form-wrapper {
+  text-align: center;
+  background: #A0CCEC;
+  padding: 20px;
+  height: 100%;
+}
+.approval-btn-wrap {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+.ui-input {
+  width: 30%;
+}
